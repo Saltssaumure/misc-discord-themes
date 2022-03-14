@@ -1,0 +1,17 @@
+/**
+ * @name LightMod
+ * @author Saltssaumure#7557
+ * @description Minor light mode modifications for readability.
+ * @version 1
+*/
+
+.theme-light {
+	--font-primary: sans-serif;
+	--text-normal: black;
+	--interactive-active: black;
+	--interactive-hover: black;
+	--interactive-normal: black;
+	--channels-default: black;
+	--text-muted: #666;
+	--background-secondary: white;
+}
