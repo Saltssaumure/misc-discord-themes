@@ -1,0 +1,37 @@
+/* Places both the New Messages and Viewing Old Messages bars at the bottom of the chat */
+
+/* Scrolling animation for text in bar */
+@keyframes vertiscroll {
+    0% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(calc(-100% + 24px));
+    }
+}
+
+/* Both bars */
+.barBase-3xxDXu {
+    overflow: hidden;
+    width: calc(50% - 16px);
+    height: 24px;
+    align-items: flex-start;
+}
+
+/* New message bar positioned */
+.newMessagesBar-1hF-9G {
+    top: auto;
+    bottom: 0;
+    right: 16px;
+    left: auto;
+    padding-bottom: 8px;
+}
+    /* Add scrolling animation to text */
+    .newMessagesBar-1hF-9G:hover .span-3lFnWr,
+    .jumpToPresentBar-1cEnH0:hover .barButtonMain-2GIx4o    {
+        overflow: visible;
+        white-space: normal;
+        animation: vertiscroll 1.5s linear forwards;
+        display: block;
+        height: auto;
+    }
