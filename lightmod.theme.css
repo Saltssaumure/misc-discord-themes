@@ -5,13 +5,30 @@
  * @version 1
 */
 
+@import url("https://saltssaumure.github.io/borderradiant-discord-theme/br-main.css");
+
 .theme-light {
-	--font-primary: sans-serif;
-	--text-normal: black;
-	--interactive-active: black;
-	--interactive-hover: black;
-	--interactive-normal: black;
-	--channels-default: black;
-	--text-muted: #666;
-	--background-secondary: white;
+    --font-primary: sans-serif;
+    --text-normal: black;
+    --interactive-active: black;
+    --interactive-hover: black;
+    --interactive-normal: black;
+    --channels-default: black;
+    --text-muted: #666;
+    --background-secondary: white;
+}
+
+/* BD settings to top */
+.bd-sidebar-header, 
+    [aria-controls="settings-tab"], 
+    [aria-controls="emotes-tab"], 
+    [aria-controls="customcss-tab"], 
+    [aria-controls="plugins-tab"],
+    [aria-controls="themes-tab"], 
+    [aria-controls="themes-tab"]      + .separator-2wx7h6, 
+    [aria-controls="pluginrepo-tab"], 
+    [aria-controls="pluginrepo-tab"] + .separator-2wx7h6, 
+    [aria-controls="themerepo-tab"] + .separator-2wx7h6, 
+    [aria-controls="themerepo-tab"]{
+    order: -1;
 }
