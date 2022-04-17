@@ -2,10 +2,10 @@
  * @name LightMod
  * @author Saltssaumure#7557
  * @description Minor light mode modifications for readability.
- * @version 1
+ * @version 2
 */
 
-@import url("https://saltssaumure.github.io/borderradiant-discord-theme/br-main.css");
+@import url(https://saltssaumure.github.io/misc-discord-themes/snippets/LightDarkModeIndicator.css);
 
 .theme-light {
     --font-primary: sans-serif;
@@ -18,17 +18,18 @@
     --background-secondary: white;
 }
 
-/* BD settings to top */
-.bd-sidebar-header, 
-    [aria-controls="settings-tab"], 
-    [aria-controls="emotes-tab"], 
-    [aria-controls="customcss-tab"], 
-    [aria-controls="plugins-tab"],
-    [aria-controls="themes-tab"], 
-    [aria-controls="themes-tab"]      + .separator-2wx7h6, 
-    [aria-controls="pluginrepo-tab"], 
-    [aria-controls="pluginrepo-tab"] + .separator-2wx7h6, 
-    [aria-controls="themerepo-tab"] + .separator-2wx7h6, 
-    [aria-controls="themerepo-tab"]{
+/* Interesting settings to top */
+[aria-controls="plugins-tab"],
+[aria-controls="themes-tab"], 
+[aria-controls="pluginrepo-tab"], 
+[aria-controls="pluginrepo-tab"] + .separator-2wx7h6, 
+[aria-controls="themerepo-tab"] + .separator-2wx7h6, 
+[aria-controls="themerepo-tab"],
+[aria-controls="appearance-tab"],
+[aria-controls="accessibility-tab"] {
+    order: -2;
+}
+[aria-controls="customcss-tab"],
+[aria-controls="themes-tab"] + .separator-2wx7h6 {
     order: -1;
 }
