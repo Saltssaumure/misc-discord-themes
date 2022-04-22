@@ -1,0 +1,4 @@
+/* Hide non-image embeds from a particular user */
+.message-2CShn3[data-author-id="put user id here"] .embedFull-1HGV2S { 
+    display: none;
+}
