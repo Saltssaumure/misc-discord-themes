@@ -33,3 +33,14 @@
 [aria-controls="themes-tab"] + .separator-2wx7h6 {
     order: -1;
 }
+
+/* BD public servers */
+.bd-server-card {
+    height: auto;
+}
+.bd-server-header {
+    height: 32px;
+}
+.bd-server-splash-container {
+    display: none;
+}
