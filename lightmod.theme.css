@@ -7,6 +7,12 @@
 
 @import url(https://saltssaumure.github.io/misc-discord-themes/snippets/LightDarkModeIndicator.css);
 
+/* Warn users in dark mode */
+.theme-dark #LightMod-card .bd-description::after {
+    content: " Switch to light mode to see effects.";
+    font-weight: 700;
+}
+
 .theme-light {
     --font-primary: sans-serif;
     --text-normal: black;
