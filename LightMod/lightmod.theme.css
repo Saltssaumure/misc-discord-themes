@@ -26,10 +26,10 @@
 
 /* Interesting settings to top */
 [aria-controls="plugins-tab"],
-[aria-controls="themes-tab"], 
-[aria-controls="pluginrepo-tab"], 
-[aria-controls="pluginrepo-tab"] + .separator-2wx7h6, 
-[aria-controls="themerepo-tab"] + .separator-2wx7h6, 
+[aria-controls="themes-tab"],
+[aria-controls="pluginrepo-tab"],
+[aria-controls="pluginrepo-tab"] + .separator-2wx7h6,
+[aria-controls="themerepo-tab"] + .separator-2wx7h6,
 [aria-controls="themerepo-tab"],
 [aria-controls="appearance-tab"],
 [aria-controls="accessibility-tab"] {
