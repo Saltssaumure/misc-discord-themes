@@ -2,7 +2,11 @@
  * @name BorderRadiant - Main
  * @author Saltssaumure#7557
  * @description Main section of the BorderRadiant theme. Please download the autoupdater from https://github.com/Saltssaumure/misc-discord-themes/blob/main/BorderRadiant/BorderRadiant.theme.css.
- * @version 1.1
+ * @version 1.2
 */
 
-@import "main", "svg", "bd", "plugin/plugin";
+@import
+    "main",
+    "bd",
+    "svg",
+    "plugin";
