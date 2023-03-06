@@ -5,7 +5,4 @@
  * @version 1.1
 */
 
-@import "main", "svg",
-    "plugin/channeltabs",
-    "plugin/themepluginrepo",
-    "plugin/toneindicators"
+@import "main", "svg", "bd", "plugin/plugin";

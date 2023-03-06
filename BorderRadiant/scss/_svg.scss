@@ -1,29 +1,10 @@
-/**
- * @name BorderRadiant (SVGs)
- * @author Saltssaumure#7557
- * @description Removes rounded corners from SVGs in Discord. Please download the autoupdating version from GitHub!
- * @version 1
- * @source https://github.com/Saltssaumure/borderradiant-discord-theme
- * @website https://saltssaumure.github.io/borderradiant-discord-theme
-*/
-
-/* Toggle slider */
+// Toggle slider
 .slider-32CRPX rect,
 .bd-switch-handle {
     rx: 0;
 }
 
-/* Don't remember what this does */
-.icon-1Hx9id rect {
-    rx: 0;
-}
-
-/* Stage moderator badge */
-.container-yn4cwV rect {
-    rx: 0;
-}
-
-/* Radio options */
+// Radio options
 .radioBar-3w9XY- div:first-of-type svg:not([class]) path {
     d: path("M 20 20 V 4 H 4 V 20 Z M 22 22 V 2 H 2 V 22 Z M 18 18 V 6 H 6 V 18 Z");
 }
@@ -34,27 +15,85 @@
     r: 0;
 }
 
-/* Start time checkbox in event */
+// Stage moderator badge
+.container-yn4cwV rect {
+    rx: 0;
+}
+
+// Start time checkbox in event
 .selectedIcon-19TbzU path {
     d: path("M 2 2 V 22 H 22 V 2 Z M 10 17 l -5 -5 l 1.41 -1.41 L 10 14.17 l 7.59 -7.59 L 19 8 l -9 9 Z");
-} 
+}
 
-/* Keybinds warning */
+// Keybinds warning
 .icon-2fP4ae path {
 	d: path("M 0 0 V 20 H 20 V 0 Z M 9 4 H 11 V 11 H 9 V 4 Z M 10 15.25 C 9.31 15.25 8.75 14.691 8.75 14 C 8.75 13.31 9.31 12.75 10 12.75 C 10.69 12.75 11.25 13.31 11.25 14 C 11.25 14.691 10.69 15.25 10 15.25 Z");
 }
 
-/* Information icon */
+// Information icon
 .detailsIcon-2NtTO9 path {
     d: path("M 6 2 H 2 V 10 H 10 V 2 z M 6 3.376 A 0.625 0.625 0 1 1 6 4.626 A 0.625 0.625 0 0 1 6 3.376 z M 7.5 8.5 h -3 v -1 h 1 V 6 H 5 V 5 h 1 a 0.5 0.5 0 0 1 0.5 0.5 v 2 h 1 v 1 z");
 }
 
-/* Server boost tier */
+// Server boost tier
 .tierMarkerLabelPlusIcon-2zLkr7 path {
     d: path("M 2 2 V 22 H 22 V 2 Z M 17 13.001 H 13 V 17.001 H 11 V 13.001 H 7 V 11.001 H 11 V 7.001 H 13 V 11.001 H 17 V 13.001 Z");
 }
 
-/* Sticker slot boost tier */
+// Sticker slot boost tier
 .bar-FCMoKY {
     r: 0;
+}
+
+// Clear forum search/post title
+.closeIcon-3xe5xL path {
+    d: path("M 0 0 V 14 H 14 V 0 Z M 10.166 9.1952 L 9.2233 10.1379 L 7.028 7.9432 L 4.8327 10.1379 L 3.89 9.1952 L 6.0847 6.9999 L 3.8893 4.8046 L 4.832 3.8626 L 7.0273 6.0579 L 9.2227 3.8626 L 10.1653 4.8046 L 7.9707 6.9999 L 10.166 9.1952 Z");
+}
+
+// Upload media
+.attachButtonPlus-3IYelE,
+#channel-attach-upload-file .tipIcon-24kLNQ path {
+    d: path("M 2 2 V 22 H 22 V 2 Z M 17 13 H 13 V 17 H 11 V 13 H 7 V 11 H 11 V 7 H 13 V 11 H 17 V 13 Z");
+}
+// Use apps
+#channel-attach-SLASH_COMMAND .optionIcon-1Ft8w0 path {
+    d: path("M 3 3 V 21 H 21 V 3 Z M 16.8995 8.4142 L 15.4853 7 L 7 15.4853 L 8.4142 16.8995 L 16.8995 8.4142 Z");
+}
+
+// Chat text area
+.channelTextArea-1FufC0 {
+    // Give nitro
+    .buttonWrapper-3YFQGJ path {
+        d: path("M 13 8 H 22 V 12 H 13 Z M 11 12 V 8 H 2 V 12 Z M 17 6 V 2 H 14 l -2 2 l -2 -2 h -3 v 4 Z M 3 14 V 22 H 11 V 14 Z M 13 14 V 22 H 21 V 14 Z");
+    }
+    // Pick gif
+    .icon-1d5zch path {
+        d: path("M 0 2 V 22 H 24 V 2 Z M 4.4846 15.931 c 0.5583 0.375 1.2 0.5625 1.925 0.5625 c 0.9667 0 1.6958 -0.3333 2.1875 -1 l 0.2375 0.825 h 1.475 v -4.9 h -3.7625 v 1.625 h 1.9875 v 1.075 c -0.1583 0.225 -0.3833 0.4042 -0.675 0.5375 c -0.2833 0.125 -0.5958 0.1875 -0.9375 0.1875 c -0.7667 0 -1.3542 -0.2458 -1.7625 -0.7375 c -0.4083 -0.4916 -0.6125 -1.1916 -0.6125 -2.1 c 0 -0.9 0.2042 -1.5958 0.6125 -2.0874 c 0.4083 -0.5 0.9958 -0.75 1.7625 -0.75 c 0.8417 0 1.475 0.3917 1.9 1.175 l 1.4125 -1.0124 c -0.3 -0.575 -0.7459 -1.0208 -1.3375 -1.3375 c -0.5833 -0.3167 -1.2458 -0.475 -1.9875 -0.475 c -0.875 0 -1.6292 0.1917 -2.2625 0.575 c -0.625 0.3833 -1.1042 0.9125 -1.4375 1.5875 c -0.325 0.675 -0.4875 1.45 -0.4875 2.325 c 0 0.8834 0.1542 1.6667 0.4625 2.35 c 0.3083 0.675 0.7417 1.2 1.3 1.575 z m 7.4509 0.3875 h 1.825 v -8.625 h -1.825 v 8.625 z m 3.5767 0 h 1.825 v -3.275 h 3.2 v -1.65 h -3.2 v -2.05 h 3.9375 v -1.65 h -5.7625 v 8.625 z")
+    }
+    // Pick sticker
+    .stickerIcon-3Jx5SE path {
+        d: path("M 12 0 V 8 H 20 Z M 10 10 V 0 H 0 V 20 H 20 V 10 H 10 Z");
+    }
+}
+
+// Channel toolbar
+.icon-2xnN2Y path {
+    // Inbox
+    .recentsIcon-F3eO1o & {
+        d: path("M 21 3 H 3 L 3 21 H 21 Z M 19 15 H 15 V 18 H 9 V 15 H 5 V 5 H 19 V 15 Z");
+    }
+    // Help
+    a & {
+        d: path("M 2 2 V 22 H 22 V 2 Z M 12 18.25 C 11.31 18.25 10.75 17.691 10.75 17 C 10.75 16.31 11.31 15.75 12 15.75 C 12.69 15.75 13.25 16.31 13.25 17 C 13.25 17.691 12.69 18.25 12 18.25 Z M 13 13.875 V 15 H 11 V 12 H 12 C 13.104 12 14 11.103 14 10 C 14 8.896 13.104 8 12 8 C 10.896 8 10 8.896 10 10 H 8 C 8 7.795 9.795 6 12 6 C 14.205 6 16 7.795 16 10 C 16 11.861 14.723 13.429 13 13.875 Z")
+    }
+}
+
+// Play video
+.icon-ib-Wfj path {
+    d: path("M 3 2 L 16 9 L 3 16 Z");
+}
+
+// Thread spine
+.spine-29OFwR path {
+    d: path("M 11 9 H 2 V 0 H 0 V 11 H 11 Z");
 }
