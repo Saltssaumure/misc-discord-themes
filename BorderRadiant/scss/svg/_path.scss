@@ -61,6 +61,48 @@ $toolbarbuttons: (
     "M 2 2 V 22 H 22 V 2 Z M 12 18.25 C 11.31 18.25 10.75 17.691 10.75 17 C 10.75 16.31 11.31 15.75 12 15.75 C 12.69 15.75 13.25 16.31 13.25 17 C 13.25 17.691 12.69 18.25 12 18.25 Z M 13 13.875 V 15 H 11 V 12 H 12 C 13.104 12 14 11.103 14 10 C 14 8.896 13.104 8 12 8 C 10.896 8 10 8.896 10 10 H 8 C 8 7.795 9.795 6 12 6 C 14.205 6 16 7.795 16 10 C 16 11.861 14.723 13.429 13 13.875 Z",
 );
 
+$channelicons: (
+    // Voice channel icon
+    "M11.383"
+    "M 11 3 L 6 8 H 2 V 15 H 6 L 11 20 H 12 V 3 Z M 14 6 h 7 v 2 h -7 Z M 14 10 h 7 v 3 h -7 Z M 14 15 h 7 v 2 h -7 Z",
+    // Voice channel limited icon
+    "M15 12"
+    "M 11 3 L 6 8 H 2 V 15 H 6 L 11 20 H 12 V 3 Z M 14 12 h 7 v 1 h -7 Z M 14 15 h 7 v 2 h -7 Z",
+    // Text channel icon
+    "M5.88657"
+    "M 7 21 V 17 H 3 V 15 H 7 V 9 H 3 V 7 H 7 V 3 H 9 V 7 H 15 V 3 H 17 V 7 H 21 V 9 H 17 V 15 H 21 V 17 H 17 V 21 H 15 V 17 H 9 V 21 Z M 9 9 V 15 H 15 V 9 H 9 Z",
+    // Text channel limited icon
+    "M14 8"
+    "M 7 21 V 17 H 3 V 15 H 7 V 9 H 3 V 7 H 7 V 3 H 9 V 7 H 13 V 9 H 9 V 15 H 15 V 13 H 17 V 15 H 21 V 17 H 17 V 21 H 15 V 17 H 9 V 21 Z",
+    // Limited mini icon
+    "M21.025 5"
+    "M 21 5 V 2 H 17 V 5 H 16 V 10 H 22 V 5 Z M 20 5 H 18 V 3 H 20 Z",
+    // Text channel with thread icon
+    "M5.43309 21"
+    "M 7 21 V 17 H 3 V 15 H 7 V 9 H 3 V 7 H 7 V 3 H 9 V 7 H 15 V 3 H 17 V 7 H 21 V 9 H 17 V 11 H 15 V 9 H 9 V 15 H 11 V 17 H 9 V 21 Z",
+    "M13.4399 12.96"
+    "M 13 13 V 20 H 15 V 23 L 18 20 H 22 V 13 Z"
+    // Browse channels icon
+    "M5.00328"
+    "M 5.6 16.8 V 13.6 H 2.4 V 12 H 5.6 V 7.2 H 2.4 V 5.6 H 5.6 V 2.4 H 7.2 V 5.6 H 12 V 2.4 H 13.6 V 5.6 H 16.8 V 7.2 H 13.6 V 8.8 H 12 V 7.2 H 7.2 V 12 H 8.8 V 13.6 H 7.2 V 16.8 Z",
+    "M10.4"
+    "M 10 17 V 10 H 17 V 16 L 19 18 L 18 19 L 16 17 Z M 11.5 11.5 h 4 v 4 h -4 Z",
+    // Home channel icon
+    "M12.3345 2.71469"
+    "M 12 3 L 21 12 H 19 V 19 H 14 V 14 H 10 V 19 H 5 V 12 H 3 L 12 3 Z",
+    // Rules channel icon
+    "M33"
+    "M 33 33 V 6 H 35 V 35 H 5 V 3 H 30 V 30 H 7 V 33 Z M 23 10 l -8 8 l -3 -3 l -3 3 l 6 6 l 11 -11 Z",
+    // Announcements channel icon
+    "M19.1"
+    "M 5 4 V 20 H 7 V 15 H 21 V 5 H 7 V 4 Z",
+    "M3.9 8.26"
+    "",
+    // Forum channel icon
+    "M6.56929"
+    "M 2.4 2.4 V 14.4 H 9.6 l 2.4 2.4 l 2.4 -2.4 H 16.8 V 2.4 Z M 4 4 v 8.8 h 7.2 v -8.8 z M 12.8 4 v 8.8 h 2.4 v -8.8 z",
+);
+
 @each $selector, $path in $unpaths {
     #{$selector} {
         d: path($path);
@@ -82,5 +124,11 @@ $toolbarbuttons: (
 @each $selector, $path in $toolbarbuttons {
     #{$selector} .icon-2xnN2Y path {
         d: path($path);
+    }
+}
+
+@each $oldpath, $newpath in $channelicons {
+    .icon-2W8DHg path[d^="#{$oldpath}"] {
+        d: path($newpath);
     }
 }
