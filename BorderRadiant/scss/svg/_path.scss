@@ -18,8 +18,8 @@ $repaths: (
     ".icon-2fP4ae"
     "M 0 0 V 20 H 20 V 0 Z M 9 4 H 11 V 11 H 9 V 4 Z M 10 15.25 C 9.31 15.25 8.75 14.691 8.75 14 C 8.75 13.31 9.31 12.75 10 12.75 C 10.69 12.75 11.25 13.31 11.25 14 C 11.25 14.691 10.69 15.25 10 15.25 Z",
     // Information icon
-    ".detailsIcon-2NtTO9"
-    "M 6 2 H 2 V 10 H 10 V 2 z M 6 3.376 A 0.625 0.625 0 1 1 6 4.626 A 0.625 0.625 0 0 1 6 3.376 z M 7.5 8.5 h -3 v -1 h 1 V 6 H 5 V 5 h 1 a 0.5 0.5 0 0 1 0.5 0.5 v 2 h 1 v 1 z",
+    // ".detailsIcon-2NtTO9"
+    // "M 6 2 H 2 V 10 H 10 V 2 z M 6 3.376 A 0.625 0.625 0 1 1 6 4.626 A 0.625 0.625 0 0 1 6 3.376 z M 7.5 8.5 h -3 v -1 h 1 V 6 H 5 V 5 h 1 a 0.5 0.5 0 0 1 0.5 0.5 v 2 h 1 v 1 z",
     // Server boost tier
     ".tierMarkerLabelPlusIcon-2zLkr7"
     "M 2 2 V 22 H 22 V 2 Z M 17 13.001 H 13 V 17.001 H 11 V 13.001 H 7 V 11.001 H 11 V 7.001 H 13 V 11.001 H 17 V 13.001 Z",
@@ -79,6 +79,9 @@ $repaths: (
     // Game overlay disabled
     ".disabledIcon-1rpL82"
     "M 2 2 V 22 H 22 V 2 Z M 4 5.5 l 14.5 14.5 H 4 Z M 5.5 4 l 14.5 14.5 V 4 Z",
+    // Information badge
+    ".notEnoughMembersError-3-VD0N"
+    "M 1 1 H 11 V 11 H 1 Z M 6 3.376 a 0.625 0.625 0 1 1 0 1.25 a 0.625 0.625 0 0 1 0 -1.25 z M 7.5 8.5 h -3 v -1 h 1 V 6 H 5 V 5 h 1 a 0.5 0.5 0 0 1 0.5 0.5 v 2 h 1 v 1 z",
 );
 
 $textbuttons: (
@@ -153,6 +156,15 @@ $deviceicons: (
     "M 18 1 H 5 V 23 H 18 Z M 10.5 21.5 h 2 v -2 h -2 Z M 16 18 H 7 V 4 H 16 V 18 Z",
 );
 
+$discoverychecks: (
+    // No
+    "M7.02799 0.333252"
+    "M 0 0 h 14 v 14 h -14 Z M 10.166 9.1952 L 9.2233 10.1379 L 7.028 7.9432 L 4.8327 10.1379 L 3.89 9.1952 L 6.0847 6.9999 L 3.8893 4.8046 L 4.832 3.8626 L 7.0273 6.0579 L 9.2227 3.8626 L 10.1653 4.8046 L 7.9707 6.9999 L 10.166 9.1952 Z",
+    // Maybe
+    "M10 0"
+    "M 0 0 V 20 H 20 V 0 Z M 9 4 H 11 V 11 H 9 V 4 Z M 11 15 H 9 V 13 H 11 Z",
+);
+
 @each $selector, $path in $unpaths {
     #{$selector} {
         d: path($path);
@@ -162,6 +174,7 @@ $deviceicons: (
 @each $selector, $path in $repaths {
     #{$selector} path {
         d: path($path);
+        fill-rule: evenodd;
     }
 }
 
@@ -186,5 +199,12 @@ $deviceicons: (
 @each $oldpath, $newpath in $deviceicons {
     .sessionIcon-2fwSzb path[d^="#{$oldpath}"] {
         d: path($newpath);
+    }
+}
+
+@each $oldpath, $newpath in $discoverychecks {
+    .checklistIcon-D7psvE path[d^="#{$oldpath}"] {
+        d: path($newpath);
+        fill-rule: evenodd;
     }
 }
