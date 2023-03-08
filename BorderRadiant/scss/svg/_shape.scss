@@ -4,9 +4,11 @@ $r: (
 );
 
 $rx: (
-    ".slider-32CRPX rect",          // Toggle slider
+    ".slider-HJFN2i rect",          // Toggle slider
     ".bd-switch-handle",            // BD toggle slider
     ".container-yn4cwV rect",       // Stage moderator badge
+    ".noItemsIcon-1rZlXZ rect",     // Subscriptions no items icon
+    ".noItemsIcon-2OeOld rect",     // Subscriptions no items icon
 );
 
 @each $selector in $r {
