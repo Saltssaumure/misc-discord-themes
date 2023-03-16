@@ -27,8 +27,6 @@
 .attachment-1PZZB2,
 .audioControls-3fmemK,
 .auditLog-1NVAY0,
-.auto-2K3UW5::-webkit-scrollbar-thumb,
-.auto-2K3UW5::-webkit-scrollbar-track,
 .autocomplete-3jLKbj,
 .autocompleteQuerySymbol-1iAOG7,
 .availabilityIndicator-3-1ZYA,
@@ -132,6 +130,7 @@
 .connectContainer-1hylYM,
 .connection-YOVI9j,
 .connectionHeader-Ixbb1s,
+.container-_dQaft,
 .container-13pE3E,
 .container-16urgA,
 .container-18GwIk,
@@ -210,6 +209,7 @@
 .developerPortalCtaWrapper-2PniQs,
 .discordIcon-2-SnKe,
 .diversitySelectorOptions-3DhNYs,
+.divider-D-Vspq,
 .dmIcon-1ZeAqq,
 .dot-10cPg0,
 .dot-1F0TGd,
@@ -262,6 +262,7 @@
 .footer-GXWBBp,
 .footer-IubaaS,
 .form-25Aujy .submitButton-3B-dZd,
+.forumPost-3i1mpe,
 .gameIcon-1mDo1J,
 .gemIndicatorContainer-PqApbX,
 .getStartedWrapper-2mNX-j,
@@ -296,7 +297,6 @@
 .hljs,
 .hoverButtonGroup-2yZIzC,
 .howItWorksContainer-3ZDRIG,
-.html5-video-player:not(.ytp-touch-mode) ::-webkit-scrollbar-thumb,
 .hue-2nWTuO>div>div,
 .icon-1_mnkD,
 .icon-2DGsye,
@@ -368,6 +368,7 @@
 .mainCard-3KBsBI,
 .markup-eYLPri code.inline,
 .markup-eYLPri pre,
+.maskBackground-3UP7z9,
 .mediaAttachmentsContainer-1WGRWy,
 .mediaBarGrabber-FvJKJg,
 .mediaBarInteractionVolume-zGrOSh,
@@ -390,6 +391,7 @@
 .messagesErrorBar-1IQ1rH,
 .messagesPopoutWrap-3zryHW,
 .metadataContainer-35U-On,
+.mini-28oMa3 .grabber-3R-Rx9,
 .mini-2qY9iv .grabber-2GQyvM,
 .moreUsers-3PdGZN,
 .mostPopularPill-28w8lV,
@@ -515,7 +517,6 @@
 .saturation-CLQHFD>div,
 .saturation-CLQHFD>div>div,
 .scrollableContainer-15eg7h,
-.scrollbarGhostHairline-2LpzZ9::-webkit-scrollbar-thumb,
 .scroller-3b1p7z,
 .search-2Mwzzq .DraftEditor-root .DraftEditor-editorContainer,
 .searchAnswer-23w-CH,
@@ -553,7 +554,7 @@
 .splashContainer-2PC_Bm,
 .splashImage-1iRUgw,
 .spoilerContainer-3wsC0k,
-.spoilerText-27bIiA,
+.spoilerText-2G40u0,
 .spoilerWarning-8ovW0v,
 .staticToolbar-x12NJC,
 .status-15kcmy,
@@ -576,7 +577,6 @@
 .tagRoleColor-1rZDyG,
 .tagsButton-4pwOKH,
 .textContainer-36wgKK,
-.thin-31rlnD::-webkit-scrollbar-thumb,
 .threadMessageAccessoryAvatar-17qE_g,
 .thumbnail-1UKMQa,
 .tier-3CS7-p,
@@ -598,6 +598,7 @@
 .tileSizer-GVC1ge,
 .timestamp-6-ptG3,
 .toast-q3Y4wI,
+.toolbar-37BrJ5,
 .tooltip-14MtrL,
 .tooltip-16UpTB,
 .tooltip-1T4pLi,
@@ -608,6 +609,7 @@
 .triggerMainContainer-274ue5,
 .typingIndicator-KF8hGa,
 .unread-36eUEm,
+.unread-O4ZgUu,
 .unreadPill-3nEWYM,
 .upload-vLbqu-,
 .uploadInput-3fblkw,
@@ -637,7 +639,6 @@
 .voiceAvatar-lRbblo,
 .voiceChannelsButton-SRmgo8,
 .warningIcon-1OWXzB,
-.webkit-QgSAqd::-webkit-scrollbar-thumb,
 .welcomeChannel-_Q4qAA,
 .withTagAsButton-OsgQ9L:hover,
 .withTagless-10ooWt:hover,
@@ -646,6 +647,7 @@
 .wrapper-1HIH0j,
 .wrapper-1VLyxH,
 .wrapper-1wwiGV,
+.wrapper-1ZcZW-,
 .wrapper-24fR1R,
 .wrapper-2fEmwW,
 .wrapper-2olG5t,
@@ -665,8 +667,8 @@
 .ytp-title-channel-logo,
 .ytp-title-channel,
 .ytp-tooltip-image,
-.ytp-tooltip-text-wrapper,
-.ytp-tooltip-text {
+.ytp-tooltip-text,
+.ytp-tooltip-text-wrapper {
     border-radius: 0;
 }
 
@@ -675,6 +677,11 @@
 .saturation-white>div>div,
 .timestamp-modal-custom-input {
     border-radius: 0!important;
+}
+
+// Scrollbars
+.scrollerBase-1Pkza4::-webkit-scrollbar-thumb {
+    border-radius: 0;
 }
 
 .activitySectionAssets-1wpe42 .largeImageMask-2KA28T,
