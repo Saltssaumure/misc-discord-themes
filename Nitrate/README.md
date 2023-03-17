@@ -2,7 +2,10 @@
 
 ***Nitro themes without Nitro.***
 
-![Screenshot](https://user-images.githubusercontent.com/29710355/154522571-465fef61-ac30-4f77-b87a-5e8c33e501d7.png)
+| Light mode | Dark mode |
+| ---------- | --------- |
+| ![Nitrate theme with custom colours, in Light Mode](https://user-images.githubusercontent.com/29710355/225917345-ab76e004-5fab-4f06-bd5e-a5ff007e82e9.png) | ![Nitrate theme with custom colours, in Light Mode](https://user-images.githubusercontent.com/29710355/225917696-9d29a4ea-f3b4-403c-8640-69e407ec5179.png) |
+
 
 ## Installation
 ### BetterDiscord
