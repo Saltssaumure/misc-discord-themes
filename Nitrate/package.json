@@ -1,0 +1,17 @@
+{
+    "name": "nitrate-discord-theme",
+    "version": "1.0.0",
+    "description": "Nitro themes without Nitro.",
+    "repository": "https://github.com/Saltssaumure/misc-discord-theme.git",
+    "author": "Saltssaumure <saltssaumure@gmail.com>",
+    "license": "GPL-3.0",
+    "private": true,
+    "scripts": {
+        "dev": "bd-scss dev",
+        "bd": "bd-scss build"
+    },
+    "type": "module",
+    "dependencies": {
+        "bd-scss": "file:../../bd-scss"
+    }
+}
