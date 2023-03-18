@@ -11,4 +11,15 @@
     --bg-overlay-chat: linear-gradient(rgb(var(--bg-overlay-color) / var(--bg-overlay-opacity-chat)), rgb(var(--bg-overlay-color) / var(--bg-overlay-opacity-chat))) fixed 0 0 / cover, var(--custom-theme-background) fixed 0 0 / cover;
     --bg-overlay-home: linear-gradient(rgb(var(--bg-overlay-color) / var(--bg-overlay-opacity-home)), rgb(var(--bg-overlay-color) / var(--bg-overlay-opacity-home))) fixed 0 0 / cover, var(--custom-theme-background) fixed 0 0 / cover;
     --bg-overlay-home-card: linear-gradient(rgb(var(--bg-overlay-color) / var(--bg-overlay-opacity-home-card)), rgb(var(--bg-overlay-color) / var(--bg-overlay-opacity-home-card))) fixed 0 0 / cover, var(--custom-theme-background) fixed 0 0 / cover;
+    --bg-overlay-app-frame: linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-app-frame)), rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-app-frame))) fixed 0 0/cover, var(--custom-theme-background) fixed 0 0/cover;
+}
+
+// Server sidebar
+.scroller-3X7KbA {
+    background: var(--bg-overlay-app-frame, var(--background-tertiary));
+}
+
+.form-3gdLxP::before,
+.children-3xh0VB::after {
+    display: none;
 }
