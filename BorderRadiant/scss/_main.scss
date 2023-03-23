@@ -685,7 +685,8 @@
 }
 
 // Scrollbars
-.scrollerBase-1Pkza4::-webkit-scrollbar-thumb {
+.scrollerBase-1Pkza4::-webkit-scrollbar-thumb,
+.scrollerBase-1Pkza4::-webkit-scrollbar-track {
     border-radius: 0;
 }
 
