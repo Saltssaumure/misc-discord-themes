@@ -67,6 +67,7 @@
 .blob-1uHjdp,
 .blockquoteContainer-3VtvI1 .blockquoteDivider-363utW,
 .bodyMedia-3ij3KY,
+.bodyMedia-3UL0Kl,
 .border-2BJQjd,
 .border-2Vy6FN,
 .bottomBorderRadius-2r3yfY,
@@ -193,6 +194,7 @@
 .content-FDHp32 ul li::before,
 .content-pHpkq8,
 .contentCircle-15IFyT,
+.contentPreview-3fWiuC,
 .contentWrapper-3vHNP2,
 .contextMenuNub-NuTZ_U,
 .copyInput-3AbKWB,
@@ -405,7 +407,7 @@
 .messageAttachmentMediaMosaic-2ic1yt,
 .messageContainer-3VTXBC,
 .messageGroupWrapper-1jf_7C,
-.messageInputContainer-2rGDH8,
+.messageInputContainer-24qqTx,
 .messagePreviewContainer-1oR1Oc,
 .messageRequestItem-1_NNAR:hover,
 .messageRequestItem-1_NNAR.active-1iRyqF,
@@ -424,6 +426,7 @@
 .newMessagesBar-1hF-9G,
 .newMosaicStyle-2jdUaP .footer-GXWBBp,
 .newMosaicStyle-2jdUaP .textContainer-36wgKK,
+.newPostsButton-UaBhcU,
 .noiseCancellationPopout-2-e5Xz,
 .notDetected-M3Ghh2,
 .notice-1Qe0b_,
@@ -443,9 +446,7 @@
 .outerWrapper-3UdjNj,
 .overflow-W0reYu,
 .overlayAvatar-1U_zp1,
-.overlayBackground-1KgwVi,
-.overlayBackground-2Zjm9f,
-.overlayBackground-H1K9ZY,
+.overlayBackground-2aa7wt,
 .overlayTitle-2efoIF,
 .partyMemberEmpty-GtlQ_s,
 .pencilContainer-11Kuga,
@@ -487,8 +488,7 @@
 .previewMessage-2g_aBv,
 .privateThreadFeaturePill-3pnWt5,
 .profileBadge-12r2Nm::before,
-.profileBadges-1GBCVy,
-.profileBadges-31rDHI,
+.profileBadges-2pItdR,
 .profileBannerPreview-3mLIdO,
 .profileCard-2gVmvm,
 .profileCustomizationPreview-2-Y173,
@@ -546,6 +546,7 @@
 .round-2IkBht,
 .roundAvatar-Vd4CZj,
 .roundButton-2_R5PN,
+.roundedBanner-uNt2w-,
 .row-1qtctT,
 .rowContainer-3t7486,
 .rowWrapper-N-4fji,
@@ -679,10 +680,10 @@
 .usagePill-16kKHu,
 .userPopout-29jUdN,
 .userPopout-2j1gM4,
-.userPopoutInner-1hXSeY::before,
+.userPopoutInner-nv9Y92:before,
 .userPopoutInner-1v4xcM,
-.userProfileInner-3F03PX,
-.userProfileOuter-1K_BYU,
+.userProfileInner-1ngKnf,
+.userProfileOuter-2tQwNf,
 .video-2HW4jD,
 .video-8B-TdZ,
 .videoWrapper-1_H3B3,
@@ -807,4 +808,9 @@ foreignObject[mask*="url(#"] {
 // Voice and video shortcut keybind
 .editIcon-e7sZ3b {
     background-image: url("data:image/svg+xml,%3Csvg height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M 22 5 H 2 L 2 19 H 22 Z M 11 8 H 13 V 10 H 11 Z M 11 11 H 13 V 13 H 11 Z M 8 8 H 10 V 10 H 8 Z M 8 11 H 10 V 13 H 8 Z M 7 13 H 5 V 11 H 7 Z M 7 10 H 5 V 8 H 7 Z M 16 17 H 8 V 15 H 16 Z M 16 13 H 14 V 11 H 16 Z M 16 10 H 14 V 8 H 16 Z M 19 13 H 17 V 11 H 19 Z M 19 10 H 17 V 8 H 19 Z' fill='%23fff' fill-rule='nonzero'/%3E%3Cpath d='m0 0h24v24h-24zm0 0h24v24h-24z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+// User profile status light theme
+.wrapper-3Un6-K circle {
+    display: none;
 }
