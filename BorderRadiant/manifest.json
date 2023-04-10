@@ -1,5 +1,5 @@
 {
-    "id": "net.saltssaumure.dev.BorderRadiant",
+    "id": "net.saltssaumure.BorderRadiant",
     "name": "BorderRadiant",
     "description": "A simple theme to remove all rounded corners from Discord. Compatible with other themes.",
     "author": {
@@ -7,7 +7,7 @@
         "discordID": "134142022092062720",
         "github": "Saltssaumure"
     },
-    "version": "1.2",
+    "version": "1.2.1",
     "updater": {
         "type": "github",
         "id": "Saltssaumure/misc-discord-themes"
