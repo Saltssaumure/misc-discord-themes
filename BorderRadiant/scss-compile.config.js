@@ -8,6 +8,6 @@ export default {
         /** The name of your theme repository. */
         repo: "misc-discord-themes",
         /** The version of your theme. */
-        version: "1.2"
+        version: "1.2.1"
     }
 };
