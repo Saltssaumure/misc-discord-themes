@@ -14,9 +14,6 @@ jobs:
       - name: Checkout Git repository
         uses: "actions/checkout@v2"
 
-      - name: Open BorderRadiant
-        run: cd BorderRadiant/
-
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
@@ -28,9 +25,11 @@ jobs:
           version: latest
 
       - name: Install Node.js dependencies
+        working-directory: ./BorderRadiant
         run: pnpm install
 
       - name: Build CSS
+        working-directory: ./BorderRadiant
         run: pnpm run bd
 
       - name: "Deploy"
