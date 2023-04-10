@@ -29,9 +29,11 @@ jobs:
           version: latest
 
       - name: Install Node.js dependencies
+        working-directory: ./BorderRadiant
         run: pnpm install
 
       - name: Build TypeScript and bundle into asar
+        working-directory: ./BorderRadiant
         run: pnpm run bundle
 
       - uses: ncipollo/release-action@v1
