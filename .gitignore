@@ -1,0 +1,10 @@
+snippets/customBackup.css
+Nitrate/ref
+
+node_modules
+package-lock.json
+pnpm-lock.yaml
+
+.parcel-cache
+bundle
+dist
