@@ -1,3 +1,5 @@
+<h1 align="center">Moved to https://github.com/MiniDiscordThemes/</h1>
+
 # Miscellaneous Discord Themes
 [![GitHub downloads](https://img.shields.io/github/downloads/saltssaumure/misc-discord-themes/total?color=purple&label=GitHub%20downloads&style=flat-square)](https://github.com/Saltssaumure/misc-discord-themes/releases/latest "Latest release")
 ![Total size](https://img.shields.io/github/repo-size/saltssaumure/misc-discord-themes?style=flat-square "Total size")
